@@ -16,7 +16,8 @@ class Estudiante{
         this.asistencias=asistencias;
     }
     public void Imprimir(){
-        System.out.println("\nNombre: "+nombre+"\nNumero de Control: "+NC+"\nMateria: "+materia+"\nCalificacion: "+calificacion+"\nEstado de calificacion: "+estado+"\nSemestre en Curso: "+semestre+"\nNumero de Asistencias en el Semestre: "+asistencias);
+        System.out.println("\nNombre: "+nombre+"\nNumero de Control: "+NC+"\nMateria: "+materia+"\nCalificacion: "+calificacion+"\nEstado de calificacion: "+estado+"\nSemestre
+                           en Curso: "+semestre+"\nNumero de Asistencias en el Semestre: "+asistencias);
     }
     public void AsignarEstado(){
         String aprobado;
